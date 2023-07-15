@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="https://logospng.org/download/spotify/logo-spotify-icon-4096.png" alt="Spotify">Spotify</li>
+           <li>Home</li> 
+           <li>About</li> 
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>My Songs Only</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.EKN0bgYtSgxbYSK-vX1bIQHaHa&pid=Api&P=0&h=180" alt="1">
+                    <span class="songName">Dandelions</span>
+                    <span class="songlistplay"><span class="timestamp">01:00 <i id="1" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="" alt="1">
+                    <span class="songName">Kaise Hua</span>
+                    <span class="songlistplay"><span class="timestamp">01:00 <i id="2" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="" alt="1">
+                    <span class="songName">Dandelions</span>
+                    <span class="songlistplay"><span class="timestamp">01:00 <i id="3" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="" alt="1">
+                    <span class="songName">Dandelions</span>
+                    <span class="songlistplay"><span class="timestamp">01:00 <i id="4" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="" alt="1">
+                    <span class="songName">Dandelions</span>
+                    <span class="songlistplay"><span class="timestamp">01:00 <i id="5" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="" alt="1">
+                    <span class="songName">Dandelions</span>
+                    <span class="songlistplay"><span class="timestamp">01:00 <i id="6" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-3x fa-backward-step"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="https://media0.giphy.com/media/vybWlRniCXzZC/200.webp?cid=ecf05e47jvkel3axrkevohidom92gz4zm4wh1h90wmjupqkq&ep=v1_gifs_search&rid=200.webp&ct=g" width="100" id="gif"><span id="masterSongName" style="font-weight: bolder; font-size: 1.5rem;">Dandelions</span>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/09e251de9b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
